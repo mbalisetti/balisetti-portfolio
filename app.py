@@ -274,7 +274,6 @@ def send_contact_email(to_email: str, from_email: str, app_password: str, user_e
     msg["Subject"] = "New Portfolio Contact Submission"
     msg["From"] = from_email
     msg["To"] = to_email
-    msg["Cc"] = user_email
 
     body = f"""
 New contact submitted from your portfolio:
