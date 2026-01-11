@@ -277,7 +277,7 @@ def send_contact_email(to_email: str, from_email: str, app_password: str, user_e
     msg["Cc"] = user_email
 
     body = f"""
-New contact submitted from your Streamlit portfolio:
+New contact submitted from your portfolio:
 
 User Email: {user_email}
 User Phone: {user_phone}
