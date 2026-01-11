@@ -223,6 +223,8 @@ st.markdown("""
 <span class="pill">Kafka</span>
 """, unsafe_allow_html=True)
 
+st.markdown(f'<div class="repo"><a href="https://github.com/mbalisetti">Visit my GIT Repo!</a></div>', unsafe_allow_html=True)
+
 st.markdown("</div>", unsafe_allow_html=True)
 
 # ----------------------------
