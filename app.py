@@ -667,7 +667,6 @@ with mid:
     )
     st.markdown("""
     <div class="pills">
-      <span class="pill">Fraud</span>
       <span class="pill">Actimize (IFM / ActOne)</span>
       <span class="pill">Java • Spring Boot</span>
       <span class="pill">OpenShift • Docker</span>
